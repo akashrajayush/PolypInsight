@@ -1,0 +1,16 @@
+# Ignore dataset folder
+feature_extraction/feature_extraction/dataset_for_feature_extraction/
+
+feature_extraction/feature_extraction/mobilenet_train_features.csv
+
+
+# Ignore Python cache and Jupyter checkpoints
+__pycache__/
+.ipynb_checkpoints/
+
+# Ignore large model/data files
+*.npy
+*.h5
+*.pkl
+*.zip
+*.tar.gz
